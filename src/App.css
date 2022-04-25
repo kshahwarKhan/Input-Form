@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App{
+  background-color: #f8f8f8;
+  min-height: 90vh;
+  display:grid;
+  grid-template-columns: 50% 50%;
+  color: white;
+  padding: 8px 8px 8px 8px;
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .App{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+body {
+  background-color: lightgreen;
+  display: grid;
+  grid-template-rows: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+
+.div1{
+
+background-color: rgb(204, 241, 241);
+margin: 3px;
+border-radius: 8px;
+}
+.div-con2{
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+.div2{
+  background-color: rgb(198, 186, 209);
+  margin: 3px;
+  border-radius: 8px;
+}
+.div3{
+    background-color: rgba(214, 185, 203, 0.76);
+    margin: 3px;
+    border-radius: 8px;
+  }
+  
+.btn{
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgb(156, 218, 218);
+  width: 150px;
+  height: 50px;
+  font-size: small;
+  margin-top: 100px;
+  border: none;
+}
+.btn:hover{
+  box-shadow: none;
+    transform: none;
+    background: rgba(107, 107, 107, 0.199);
+}
